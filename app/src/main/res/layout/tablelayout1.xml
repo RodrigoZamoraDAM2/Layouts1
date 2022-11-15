@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:background="@drawable/roundbutton"
+            android:paddingTop="250dp"
+            android:paddingRight="250dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="80dp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Nombre"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent">
+        <Button
+            android:paddingTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:text="Edit Profile"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            />
+    </TableRow>
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        android:paddingTop="10dp">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Followers"
+                android:textAlignment="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Following"
+                android:textAlignment="center"/>
+            <TextView
+
+                android:text="Estrellita"
+                android:textAlignment="center"/>
+        </TableRow>
+    </TableLayout>
+
+</TableLayout>
