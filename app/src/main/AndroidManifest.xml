@@ -22,6 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Linear1"/>
+        <activity android:name=".Linear2"/>
+        <activity android:name=".Table1"/>
+        <activity android:name=".Table2"/>
+        <activity android:name=".Constraint1"/>
+        <activity android:name=".Constraint2"/>
     </application>
 
 </manifest>

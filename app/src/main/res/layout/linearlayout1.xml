@@ -32,15 +32,16 @@
         android:layout_width="match_parent"
         android:layout_height="20dp"
         />
+
     <Button
+        android:id="@+id/innerLinear"
         android:layout_width="380dp"
-        android:layout_gravity="center"
         android:layout_height="50dp"
+        android:layout_gravity="center"
         android:backgroundTint="@color/white"
         android:text="Edit Profile"
         android:textColor="@color/black"
-        android:textSize="20dp"
-        />
+        android:textSize="20dp" />
     <Space
         android:layout_width="match_parent"
         android:layout_height="20dp"
